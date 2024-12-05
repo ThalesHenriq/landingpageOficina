@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000;
+    color: #dfb843;
 }
 .container {
     width: 90%;
@@ -13,8 +14,8 @@ body {
 header {
     background: url('bgw.png') no-repeat center center/cover;
     color: #fff;
-    padding: 150px 0;
-    border-bottom: #77d9d5 3px solid;
+    padding: 50px 0;
+    border-bottom: #dfb843 3px solid;
     text-align: center;
 }
 header .logo {
@@ -55,10 +56,20 @@ header .social-media .button {
 header .social-media .button:hover {
     background: #555;
 }
+.about {
+    padding: 20px;
+    background: #dfb843;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 .main {
     padding: 20px;
-    background: #fff;
+    background: #000;
+    color: #dfb843;
     margin-top: 20px;
+    border-radius: 10px;
 }
 .services {
     display: flex;
@@ -68,7 +79,8 @@ header .social-media .button:hover {
 .services div {
     flex: 1 1 calc(45% - 20px);
     padding: 10px;
-    background: #eee;
+    background: #333;
+    color: #dfb843;
     margin: 10px;
     border-radius: 10px;
     text-align: center;
@@ -83,7 +95,8 @@ header .social-media .button:hover {
     justify-content: space-between;
     margin-top: 20px;
     padding: 20px;
-    background: #fff;
+    background: #dfb843;
+    color: #000;
     border-radius: 10px;
 }
 .contact-address section {
@@ -93,21 +106,27 @@ header .social-media .button:hover {
 .contact-form {
     max-width: 100%;
     padding: 20px;
-    background: #fff;
+    background: #000;
+    color: #dfb843;
     border-radius: 10px;
-    box-shadow: 2 3 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .contact-form input, .contact-form textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
+    background: #dfb843;
+    color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
 }
 .contact-form button {
     background: #333;
-    color: #fff;
+    color: #dfb843;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 .contact-form button:hover {
     background: #555;
@@ -119,6 +138,7 @@ footer {
     padding: 30px 20px;
     margin-top: 20px;
 }
+
 @media (max-width: 768px) {
     header .logo {
         max-width: 150px;
